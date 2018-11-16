@@ -44,12 +44,12 @@ public class Images_Activity extends AppCompatActivity implements OnClickListene
         recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
 
         formesArrayList = new ArrayList<Integer>();
-        formesArrayList.add(R.drawable.chat_v2);
-        formesArrayList.add(R.drawable.cadre_1);
-        formesArrayList.add(R.drawable.cadre_2);
-        formesArrayList.add(R.drawable.cadre_3);
-        formesArrayList.add(R.drawable.cadre_4);
-        formesArrayList.add(R.drawable.cadre_5);
+        formesArrayList.add(R.drawable.mse_test);
+        formesArrayList.add(R.drawable.ballon_01);
+        formesArrayList.add(R.drawable.sapin);
+        formesArrayList.add(R.drawable.rectangle_01);
+        formesArrayList.add(R.drawable.cadeau_01);
+        formesArrayList.add(R.drawable.carre_01);
         formesArrayList.add(R.drawable.etoile);
         adapter = new ImageActivityAdapter(this, formesArrayList);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
@@ -42,51 +43,59 @@
         android:textStyle="bold"
         android:id="@+id/textView4" />
 
-      <ImageButton
-          android:id="@+id/button1"
-          android:layout_width="500dp"
-          android:layout_height="500dp"
-          android:layout_gravity="center"
-          android:src="@drawable/chat_v2"
-          android:background="@drawable/my_selector"
-          />
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_gravity="center"
+        android:background="@drawable/my_selector"
+        android:scaleType="fitXY"
+        android:src="@drawable/mse_test" />
 
     <ImageButton
 
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:background="@drawable/cadre_1"
-        android:onClick="cadre_1"/>
+        android:background="@drawable/ballon_01"
+        android:onClick="ballon_01" />
 
     <ImageButton
 
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:background="@drawable/cadre_2"
-        android:onClick="cadre_2"/>
+        android:background="@drawable/sapin"
+        android:onClick="cadre_2" />
 
     <ImageButton
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:background="@drawable/cadre_3"
-        android:onClick="cadre_3"/>
+        android:background="@drawable/rectangle_01"
+        android:onClick="rectangle_01"
+        android:scaleType="fitXY"
+        android:src="@drawable/rectangle_01"
+        tools:src="@drawable/rectangle_01" />
 
     <ImageButton
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:background="@drawable/cadre_4"
-        android:onClick="cadre_4"/>
+        android:background="@drawable/cadeau_01"
+        android:onClick="cadeau_01"
+        android:scaleType="fitXY"
+        android:src="@drawable/cadeau_01"
+        tools:src="@drawable/cadeau_01" />
 
     <ImageButton
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:background="@drawable/cadre_5"
-        android:onClick="cadre_5"/>
+        android:background="@drawable/carre_01"
+        android:onClick="carre_01"
+        android:src="@drawable/carre_01"
+        tools:src="@drawable/carre_01" />
 
     <ImageButton
         android:layout_width="200dp"

@@ -32,7 +32,7 @@ public class Choose_photo_activity extends AppCompatActivity {
     private String choix;
     private double prix;
     private Commande commande;
-    private RadioButton polaroid, A6, A4;
+    //private RadioButton polaroid, A6, A4;
 
     private int PICK_IMAGE_REQUEST = 1;
     @Override
@@ -44,16 +44,16 @@ public class Choose_photo_activity extends AppCompatActivity {
 
         imageView = (ImageView)findViewById(R.id.photo);
 
-        polaroid = (RadioButton)findViewById(R.id.polaroid);
+        /*polaroid = (RadioButton)findViewById(R.id.polaroid);
         A6 = (RadioButton)findViewById(R.id.A6);
-        A4 = (RadioButton)findViewById(R.id.A4);
+        A4 = (RadioButton)findViewById(R.id.A4);*/
 
         if(commande.getPhoto()!=null){
             bitmap = commande.getPhoto();
             imageView.setImageBitmap(bitmap);
         }
 
-
+/*
         if(commande.getFormat()!=null){
             choix = commande.getFormat();
             String format = commande.getFormat();
@@ -63,7 +63,7 @@ public class Choose_photo_activity extends AppCompatActivity {
                 A4.setChecked(true);
             else if(format.equals("A6"))
                 A6.setChecked(true);
-        }
+        }*/
 
     }
 
@@ -90,7 +90,7 @@ public class Choose_photo_activity extends AppCompatActivity {
             }
         }
     }
-
+/*
     public void choixFormat(View v) {
         boolean checked = ((RadioButton) v).isChecked();
 
@@ -114,7 +114,7 @@ public class Choose_photo_activity extends AppCompatActivity {
                 }
                 break;
         }
-    }
+    }*/
 
     public void importPhoto(View v) {
         showFileChooser();

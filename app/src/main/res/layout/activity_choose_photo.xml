@@ -61,62 +61,17 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
 
-    <TextView
-        android:text="@string/format"
-        android:id="@+id/Formatcarte"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        />
-
-    <RadioGroup
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:text="@string/format1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/polaroid"
-            android:onClick="choixFormat"/>
-        <RadioButton
-            android:text="@string/format2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/A4"
-            android:onClick="choixFormat"/>
-        <RadioButton
-            android:text="@string/format3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/A6"
-            android:onClick="choixFormat"/>
-
-    </RadioGroup>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
-            android:text="@string/buttonPrecedent"
-            android:layout_width="120dp"
-            android:layout_height="wrap_content"
-            android:onClick="precedentImagesActivity"
-            style="@style/boutonPrecedent"/>
-
-        <Space
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_width="181dp" />
-
-        <Button
-            android:text="@string/buttonSuivant"
-            android:layout_width="120dp"
+            style="@style/boutonSuivant"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="suivantActivityShape"
-            style="@style/boutonSuivant"/>
+            android:text="@string/buttonSuivant" />
 
     </LinearLayout>
 </LinearLayout>
